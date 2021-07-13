@@ -1,0 +1,121 @@
+.heading-1 {                font:500 32px/32px futura-pt; }
+.heading-1-bis {            font:italic 700 28px/30px futura-pt; }
+.heading-2 {                font:500 24px/24px futura-pt; }
+.heading-3 {                font:italic 700 22px/22px futura-pt; }
+.heading-4 {                font:italic 700 18px/18px futura-pt; }
+.heading-5 {                font:700 17px/18px futura-pt; }
+.heading-6 {                font:500 17px/20px futura-pt;}
+.heading-7 {                font:italic 300 13px/18px futura-pt;}
+.heading-10 {				font:bold 24px/24px futura-pt; }
+.teasing-1 {                font:300 32px/32px futura-pt; }
+.teasing-2 {                font:300 24px/24px futura-pt; }
+.teasing-3 {                font:500 20px/22px futura-pt;}
+.teasing-1 strong {         font-weight:700; }
+.teasing-2 strong {         font-weight:700; }
+.teasing-3 strong {         font-weight:700; }
+.teasing-5 {                font:500 16px/24px futura-pt;}
+.teasing-6 {                font:300 21px/28px futura-pt;}
+.rte h2 {                   font:500 24px/24px futura-pt;}
+.rte h3 {                   font:500 18px/22px futura-pt;}
+.rte h4 {                   font:500 16px/18px futura-pt;}
+.rte h5 {                   font:500 14px/16px futura-pt;}
+.rte h6 {                   font:500 13px/18px futura-pt;}
+small {                     font:500 10px/18px futura-pt;}
+#nav-thirdy a {             font:700 15px/39px futura-pt, Arial, sans-serif;}
+.tab-1 a {                  font:700 15px/40px futura-pt, Arial, sans-serif;}
+.tab-2 a {                  font:700 15px/41px futura-pt, Arial, sans-serif; }
+#nav-secondary .first li a {font:700 15px/19px futura-pt, Arial, sans-serif;}
+#nav-secondary .first li ul>li a{font:700 13px/18px futura-pt, Arial, sans-serif;}
+.stats-widget {             font:500 18px/22px futura-pt; }
+.stats-widget strong {      font:700 30px/30px futura-pt;  }
+.history-list dt {          font:300 26px/26px futura-pt;}
+.stats {                    font:300 19px/20px futura-pt;}
+.stats strong {             font:700 32px/32px futura-pt; }
+#footer ul strong{          font:700 14px/22px futura-pt;}
+.pager,
+.box-key-figures .text  {   font:700 13px/18px futura-pt;}
+.table th {                 font:600 13px/15px futura-pt;}
+.table a {                  font:600 15px/18px futura-pt;}
+.big-push {                 font:700 18px/64px futura-pt;}
+#footer .navigation{ 		font:700 12px/20px futura-pt;}
+.footer-sub .sites .picker a {font:normal 12px/12px Helvetica, Arial, sans-serif}
+
+/* Carousel */
+.carousel-home .carousel-view .txt-right .num {font:700 63px/55px futura-pt;}
+.carousel-home .items a {   font:400 17px/20px futura-pt;}
+.carousel-home-2 .carousel-items {  font:500 15px/20px futura-pt; }
+.automotive-carousel .heading-3{font:300 28px/30px futura-pt;}
+.automotive-carousel .heading-4{font:300 18px/24px futura-pt;}
+.services-home-carousel .heading-4{font:300 18px/24px futura-pt;}
+.services-home-carousel .items a {   font:300 16px/16px futura-pt; }
+
+
+/*Contact-map*/
+.form-contact-map label {   font:300 18px/38px futura-pt,sans-serif;}
+.contact-infos a {          font:700 14px/17px futura-pt, sans-serif;}
+.widget-contact .access {   font:700 13px/22px futura-pt, sans-serif;}
+#resume-route .result {     font:bold 23px/25px futura-pt, sans-serif;}
+
+/*fiche*/
+#filiale-brands .brand {    font:500 18px/20px futura-pt;}
+.fiche-breadcrumb>ul>li>a { font:700 13px/18px futura-pt;}
+.fiche-content .teasing-4 { font:700 16px/22px futura-pt;}
+.pager-items li a{          font:500 16px/53px futura-pt;}
+.brand-news h3 {            font:700 14px/18px futura-pt;}
+
+/*filiale-map*/
+.outer-filters .legend {    font:700 13px/15px futura-pt;}
+
+/* flexible accordion */
+.red-accordion{font-family:futura-pt;font-weight:500;}
+
+/*form*/
+.form-submit button {       font:700 17px/18px futura-pt;}
+
+/* Key figures */
+.grid-keyfigures .teasing-5{font:700 14px/22px futura-pt;}
+.grid-keyfigures .teasing-3{font:300 17px/20px futura-pt;}
+.keyfigure-map li .txt,
+.keyfigure-map li .num {     font:600 12px/14px futura-pt;}
+.keyfigure-map li.medium .txt,
+.keyfigure-map li.medium .num{font:600 12px/16px futura-pt;}
+.keyfigure-map li.big .num { font:600 17px/22px futura-pt;}
+.keyfigures-ca .num {       font:300 32px/32px futura-pt;}
+.ca-automotive .bu-title {  font:700 13px/15px futura-pt;}
+.ca-eurapharma .bu-title,
+.ca-prewholesale .bu-title,
+.world-line-list {          font:700 11px/13px futura-pt;}
+.ca-others-activities .bu-title,
+.ca-offers .bu-title,
+.ca-others .bu-title {      font:700 11px/13px futura-pt;}
+.keyfigure-ca-evol .evol-1 {font:700 15px/17px futura-pt;}
+.keyfigure-ca-evol .evol-2 {font:700 11px/13px futura-pt;}
+.keyfigure-ca-evol .evol-3 {font:700 12px/14px futura-pt;}
+.keyfigure-ca-evol .evol-4 {font:700 17px/19px futura-pt;}
+.keyfigure-ca-evol .evol-5 {font:700 20px/22px futura-pt;}
+
+/*macro-map*/
+.filters-outer .legend {    font:700 13px/15px futura-pt;}
+.list-map .legend {         font:700 13px/15px futura-pt;}
+.list-map #result,
+.tmp-contact-list #result { font:700 24px/26px futura-pt;}
+.list-map-result .heading-5{font:700 15px/18px futura-pt;}
+.map-pager a {              font:700 14px/15px futura-pt;}
+.filters-map .legend {      font:700 12px/15px futura-pt;}
+.result {                   font:700 21px/21px futura-pt;}
+#direction-panel legend {   font:700 14px/22px futura-pt;}
+#direction-panel .label {   font:700 16px/20px futura-pt;}
+#direction-panel #to {      font:500 16px/20px futura-pt;}
+#direction-panel .dist-duration {font:700 14px/18px futura-pt; }
+#direction-panel li .dist { font:700 14px/18px futura-pt;}
+.map-pager a {              font:700 15px/15px futura-pt;}
+
+/* News */
+.news .heading {            font:700 16px/18px futura-pt, Arial, sans-serif;}
+
+/* Search */
+.search-count{              font: 700 16px/36px futura-pt;}
+
+/*Home BU Navy*/
+.tmp-home .box-trends .title {font:bold 11px/16px futura-pt, Arial, sans-serif;}
+.tmp-home .carousel-box-home .title {font:300 16px/18px futura-pt, Arial, sans-serif;}

@@ -1,0 +1,82 @@
+$(function(){
+    //dropdown tabs
+
+    var cookiesBanner = {
+       elems : {
+            body : $('body'),
+           banner : $('.cookies-banner'),
+           btnClose : $('.js-close-cookies')
+       },
+
+       init: function init () {
+            if (this.isCookieSet() == true) {
+                return;
+            }
+            this.bindEvents();
+            this.showBanner();
+        },
+
+       bindEvents: function bindEvents () {
+            if(this.elems.btnClose.live)
+                this.elems.btnClose.live('click', $.proxy(this.closeBanner, this));
+            else
+                this.elems.btnClose.on('click', $.proxy(this.closeBanner, this));
+        },
+
+        showBanner: function showBanner () {
+            $(this.elems.banner).addClass('is-shown');
+        },
+
+        isCookieSet: function isCookieSet () {
+            var cookie = this.getCookie('banner-closed');
+
+            if (cookie !== "") {
+                return true;
+            } else {
+                return false;
+            }
+        },
+
+        getCookie: function getCookie (name) {
+            if (document.cookie.length > 0) {
+                var start = document.cookie.indexOf(name + "=");
+                if (start != -1) {
+                    start = start + name.length + 1;
+                    var end = document.cookie.indexOf(";", start);
+                    if (end == -1) {
+                        end = document.cookie.length;
+                    }
+                    return unescape(document.cookie.substring(start, end));
+                }
+            }
+
+            return "";
+        },
+
+        setCookie: function setCookie (name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+
+            document.cookie = name + "=" + value + expires + "; path=/";
+
+        },
+
+        closeBanner: function closeBanner (e) {
+            e.preventDefault();
+
+            $(this.elems.banner).removeClass('is-shown');
+
+            this.setCookie('banner-closed', true, 1);
+        }
+
+    };
+
+    cookiesBanner.init();
+});

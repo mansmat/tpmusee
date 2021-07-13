@@ -1,0 +1,191 @@
+/* 
+ * Theme :      BLUE 
+ * Used by :    BU Corporate
+ */
+
+
+/* 
+ * Selection 
+ */
+
+::selection {               background: #393f5e; color: #fff; }
+::-moz-selection {          background: #393f5e; color: #fff; }
+
+/*
+ * Text Colors
+ */
+
+body, .partner .heading-5, .form label.legal { 
+                            color:#333; }        /* black */
+a, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6, .teasing-1, .teasing-2, .teasing-3, 
+.stats-widget, .tab-2 li a:hover, .heading, .copyright, .member-list .member:hover, .highlight-text .teasing-5,
+.widget address, #nav-secondary a, .contact-infos, .widget-contact .access, .chzn-container .chzn-results 
+.result-selected, .chzn-container .chzn-results .highlighted, .form-redirect legend, .rte h3, .rte h4, .rte h5, .rte h6,
+#footer-home .footer-sub, #footer-home .copyright, #footer-home .copyright a, #footer-home, .tmp-home .box-rounded .teasing-6,
+.sub-header-home .discover, .sub-header-home .discover:hover {
+                            color:#393f5e; }        /* navy */
+.tab-1 li.active a, a:hover, .pager .active, .related-list .heading-4, .pager-2 a:hover, .pager-2 a:focus, .pager-3 a:hover, .pager-3 a:focus, .fiche-breadcrumb .dropdown li a:hover,
+.partner-link a, .tmp-implantation .teasing-6 strong, .grid-keyfigures .teasing-5, #nav-secondary .picker li a:hover, 
+#nav-secondary .picker li a:focus, #footer .picker li a:focus, #footer .picker li a:hover, #resume-route a,
+.fiche-breadcrumb .dropdown .selected a, .fiche-breadcrumb .dropdown li a:focus, .sub-header-home .box-trends 
+.percent, #footer .picker li.sub:hover>a, .widget-contact p a:hover, .tmp-finance-home .heading-4,.share .lnk:hover, .share .lnk:focus  {
+                            color:#3bbdc4; }        /* blue */
+.detail, .history-list dt, .share, .member-text .heading-6, .testimony .heading-6,.tmp-home #section .box .subtitle, 
+.tmp-home .box .date { 
+                            color:#9194a5; }        /* bluelight */
+.lnk {                      color:#c7c8cf; }        /*blie light ++*/
+.filters p {
+                            color:#9c9c9c; }        /* gray */
+.pager-2 a, .pager-3 a, .form-contact-map .field-text, .chzn-container .chzn-results li, .chzn-container-single .chzn-single,.claim {                
+                            color:#666;}
+hr {
+                            color:#b0b0b0; }        /* gray light */
+#search-p .s-button input {
+                            color:#143f41;}             /* blue dark */                            
+#nav-thirdy a, #sub-header, #sub-header .heading-4, #sub-header .teasing-1, .tab-2 li.active a, .filters a:hover,
+.filters a:focus, .selected a, .btn-small:hover, .stats, .btn-2, .btn-2:hover, .rte hr, ul hr, .keyfigure-map li,
+.grid-keyfigures .bu-title, .keyfigure-ca-evol li, .fiche-breadcrumb a:hover, .fiche-breadcrumb .selected small,
+ #resume-route a:hover, #resume-route a:focus, .fiche-breadcrumb a:hover small, #search-p .s-text input,
+ .sub-header-home .box-trends .price, .tmp-home .box .highlight,.tmp-home .sub-header-home, .tmp-home .sub-header-home .teasing-1   {
+                            color:#fff; }        /* white */
+#footer .copyright .cell-2  {                            
+                            color:#f9f9f9; }
+/*
+ * Background Colors
+ */
+
+a.btn-2, .btn-small:hover, .stats-odd, #sub-header, button.btn-2, .tmp-implantation #section, .keyfigure-map li .num,
+.keyfigure-map li .text, .keyfigure-ca-evol li, .keyfigure-map li .txt, #footer .footer-sub,  #search-p>div  {
+                            background-color:#393f5e; }   /* navy */
+button.btn-2:hover {        background-color:#2c3149; }   /* navy darker */ 
+.fiche-breadcrumb a, .search-count, .dropdown ul {
+                            background-color: #E7E7E7;}                           
+.filters a:hover, .filters a:focus, .selected a, #nav-thirdy .active a, #nav-thirdy a:hover, .tab-2 li.active a,
+.gototop:hover, #ergo li a:hover, .stats-even, .carousel-prev a:hover, .carousel-next a:hover, .tools a:hover,
+.tools a:focus, .fiche-breadcrumb a:hover,.tmp-home .box .highlight {
+                            background-color:#3bbdc4; }   /* blue */
+.btn-2:hover { 
+                            background-color:#9194a5; }   /* bluelight */
+.btn-small {                background-color:#d5d7e0; }   /* bluesilver */
+hr {
+                            background-color:#b0b0b0; }   /* gray light */ 
+.news-list .news-illus, .prev-next-news .illus, .jobs-widget-wrap, .rte hr, ul hr, .member-list-testimony .member,
+.widget-phototheque .illus, .chzn-container-single .chzn-single {
+                            background-color:#fff; }      /* white */
+.keyfigure-map li .txt {    background-color:rgba(57,63,94,.85);}
+.keyfigure-ca-evol li {     background-color:rgba(57,63,94,.90);}
+#nav-secondary .picker li a:hover, #nav-secondary .picker li a:focus, 
+#footer .picker li a:hover, #footer .picker li.sub:hover, #footer .picker li a:focus, .chzn-container .chzn-results .result-selected {
+                            background-color:#f6f6f6;}
+#nav-secondary .picker li.odd  {                            
+                            background-color:#fafafa;}
+.form-contact-map {         background: #1d2030;
+                            background:rgba(29,32,48,.5);}
+                            
+
+/*
+ * Background Images
+ */
+
+.icon {                     background-image:url(images/sprite.png); }
+.icon-m-news {              background-image:url(images/sprite-news.png); }
+.icon-m-figures {           background-image:url(images/sprite-keyfigures.png);}
+.icon-m-contact {           background-image:url(images/sprite-contact.png);}
+.heading-3-dotted {         background:url(images/heading-3-dotted.png) repeat-x bottom; }
+#sub-header .dotted {       background:url(images/sub-header-dotted.png) no-repeat center; }
+.subheader-bg-rse #sub-header{background-image:url(images/bg-rse.png); }
+.subheader-bg-pre #sub-header{background-image:url(images/bg-pre.png);}
+.subheader-bg-activity #sub-header{background-image:url(images/bg-activity.png);}
+.subheader-bg-parcours #sub-header{background-image:url(images/bg-parcours.png);}
+.subheader-bg-news #sub-header{background-image:url(images/bg-news.png);}
+.subheader-bg-contact-map #sub-header{background-image:url(images/bg-contact-map.png);}
+.tab-2 a {                  background:url(images/tab-2-pipe.png) no-repeat left center; }
+.tmp-aside #section .inner{ background:url(images/bg-sidebar.png); }
+.btn {                      background:url(images/bg-btn.png) repeat-x #dbdbdb; }
+.btn-2 {                    background-image:none; }
+.stats-list {               background:url(images/stats-shadow.png) no-repeat center bottom; }
+.box-jobs-widget {          background:url(images/bg-jobs-box.png) bottom right #fff no-repeat; }
+.member-list-testimony 
+.teasing-4 {                background:url(images/testimony-quote.png) no-repeat; }
+.testimony .rte {           background:url(images/testimony-quote-2.png) no-repeat; }
+.prev-next-news ul {        background:url(images/px-dotted.png) repeat-y 309px 0;}
+.icon-m-implantation-red,
+.icon-m-implantation-blue,
+.icon-m-implantation-yellow,
+.icon-m-implantation-green,
+.icon-m-implantation-legend{background-image:url(images/sprite-implantations.png);}
+.tmp-implantation .implantation-sp-bg{background-image:url(images/bg-implantation-gradient.png);}
+.grid-1-2 {                 background:url(images/px-gray.png) repeat-y 50% 0;}
+.keyfigure-map {            background:url(images/keyfigure-map.png) no-repeat 0 0;}
+.keyfigure-ca-evol {        background:url(images/keyfigure-ca-evolution.png) no-repeat 36px 0;}
+.chzn-container-single 
+.chzn-single div b {        background-image:url(images/sprite-chosen.png); }
+.implantations-list li.active h3 a{background-image:url(images/bg-implantation-li-active.gif);}
+/*override icons */
+a:hover .icon-arrow-2,
+#resume-route .icon-arrow-2 { background-position:-88px 0; }
+.tmp-home .sub-header-home { 
+    background: #161d39; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2MWQzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNDJmNTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #161d39 0%, #242f56 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#161d39), color-stop(100%,#242f56)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #161d39 0%,#242f56 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #161d39 0%,#242f56 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #161d39 0%,#242f56 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #161d39 0%,#242f56 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161d39', endColorstr='#242f56',GradientType=0 ); /* IE6-8 */
+
+} 
+#sub-footer .cell-4 .box{    background:url(images/bg-subfooter-box-1.png) top center no-repeat #FFF;}
+#sub-footer .cell-4+.cell-4 .box{background-image:url(images/bg-subfooter-box-2.png);}
+#sub-footer .cell-4.cell-last .box{background-image:url(images/bg-subfooter-box-3.png);}
+
+/*
+ * Border Colors
+ */
+
+
+#nav-primary a:hover, #nav-primary .active a, .news-illus:hover, .news-illus:focus, #nav-secondary .first .picker,
+.form-contact-map .field-text:focus, .rte a:hover, .rte a:focus {
+                            border-color:#3bbdc4; } /* blue */
+#aside .heading-5, div.prev-next-news, #footer .copyright ul li, #search-p .s-text  {           
+                            border-color:#9194a5; } /* bluelight */
+#footer ul ul {             border-color:#d5d7e0; } /* bluesilver */
+.heading-3-border, .pager a, .pager, .news-list li, .gouv, .rte hr, ul hr, .grid-border, .grid-border .line {
+                            border-color:#b0b0b0; }
+.fiche-breadcrumb ul, .filters li, .wrap-map .list-map, .list-map .chzn-single,
+.list-map .chzn-container-single .chzn-single div, .list-map .chzn-container-active .chzn-single-with-drop div,
+.list-map .result, .map-pager, #filiale-header .heading-1, .list-border, .list-border li,
+.tmp-home #section .box .more, .tmp-home #section div.box, .tmp-home .box.without-picture .content, #footer-home div.bordered,
+.tmp-404 .sitemap {
+                            border-color:#cfcfcf ; }
+.widget-phototheque .illus, .prev-next-news .illus, .testimony-header {
+                            border-color:#d0d0d0; }
+#section .related-illus, .highlight-illus, #sub-footer .box {   
+                            border-color:#fff; }
+.table td, .pager-bottom, .pager-2, .pager-3 {  
+                            border-color:#e3e3e3;}
+.form-submit button {       border-color:#393f5e;}
+#search-p .s-icon {            
+                            border-color:#143f41;} /*blue dark*/ 
+.form-contact-map .field-text { border-color:#2e354c;}
+
+/*Box shadow + text-shadow*/
+.form-submit button  {      -webkit-box-shadow: 0 1px 0 #DC0041 inset, -1px 0px 0 #596293 inset, 
+                                            0 0 0 #596293 inset, 1px 0px 0 #596293 inset;
+                            -moz-box-shadow: 0 1px 0 #596293 inset, -1px 0px 0 #596293 inset, 0 0 0 #596293 inset, 
+                                            1px 0px 0 #596293 inset; 
+                            box-shadow: 0 1px 0 #596293 inset, -1px 0px 0 #596293 inset, 0 0 0 #596293 inset, 
+                                        1px 0px 0 #596293 inset; 
+                            text-shadow:0 1px 2px #6a73a4;} 
+#nav-thirdy a {
+							padding:10px 16px;
+}
+.widget-contact p a,
+.widget-contact p strong {
+							color:#393f5e;
+}
+
+/* 404 */
+.img-404{background-image:url('../../../images/404-corpo.png');}

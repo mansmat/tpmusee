@@ -1,0 +1,851 @@
+/*
+ * Module : Carousel
+ */
+/*common*/
+.carousel-view ul,
+.carousel-view li {         position:relative;}
+
+
+.carousel-member {          padding:0 62px; position:relative; }
+.carousel-member.no-padding { padding:0px; }
+.carousel-member
+.carousel-view {            width:496px; overflow-x:hidden; position:relative; }
+.carousel-member
+.carousel-view ul {         position:relative; }
+.carousel-member
+.carousel-view ul li {      width:124px; float:left; }
+.carousel-member
+.carousel-prev {            position:absolute; top:48px; left:0;  }
+.carousel-member
+.carousel-next {            position:absolute; top:48px; right:0;  }
+.carousel-prev a {          padding:5px 7px 5px 5px; width:16px; height:19px; display:block; }
+.carousel-next a {          padding:5px 5px 5px 7px; width:16px; height:19px; display:block; }
+
+
+/*carousel home brand*/
+.carousel-brands {          position:relative;}
+.carousel-brands
+.carousel-view {            position:relative;}
+.hasJs .carousel-brands
+.carousel-view li {         float:left;}
+.carousel-brands
+.carousel-view li a {       display:block; float:left;}
+.carousel-brands
+.carousel-view ul {         position:relative;}
+.carousel-brands
+.carousel-view img {        display:block;}
+.carousel-brands
+.carousel-view
+.picture-color {            display:none;}
+.carousel-brands a:hover
+.picture-color {            display:block;}
+.carousel-brands a:hover
+.picture-bw {               display:none;}
+
+.carousel-brands
+.carousel-prev-next li {    position:absolute;}
+.carousel-brands
+.carousel-prev-next li a {  padding:0; background:url(../images/sprite-carousel.png) no-repeat 0 0; width:48px; height:48px;
+                            position:relative;}
+.carousel-brands
+.carousel-prev-next .icon { position:absolute; left:13px; top:13px;}
+.carousel-brands
+.carousel-next .icon {      left:17px;}
+.carousel-brands
+.carousel-prev a:hover
+.icon {                     background-position:-32px -109px;}
+.carousel-brands
+.carousel-next a:hover
+.icon {                     background-position:-80px -109px;}
+
+/*carousel-home*/
+.carousel-home {            margin:0 0 25px;position:relative;}
+.carousel-home
+.carousel-view {            /*margin-bottom:15px;*/ position:relative;}
+.carousel-home
+.carousel-view li,
+.carousel-home
+.carousel-view .outer-txt { width:960px;}
+.hasJs .carousel-home
+.carousel-view li {         float:left;}
+.carousel-home .carousel-view .outer-txt,
+.carousel-home .carousel-view .outer-txt div {
+                            position:absolute; top:0;}
+.carousel-home .carousel-view .outer-txt div {
+                            padding-left:120px; width:350px;}
+.carousel-home
+.carousel-view .txt-left {  padding-top:85px; left:0;}
+.carousel-home
+.carousel-view .txt-right { padding-top:60px;}
+.carousel-home
+.carousel-view .txt-right { right:0;}
+.carousel-home
+.carousel-view .teasing-2 { font-size:20px; margin-bottom:20px;}
+.carousel-home .heading-1 { font-weight:700;}
+
+.carousel-home
+.carousel-prev-next li {    position:absolute; top:-110px;}
+.carousel-home
+.carousel-prev {            left:0;}
+.carousel-home
+.carousel-next {            right:0;}
+.carousel-home
+.carousel-next .icon {      background-position:-80px -108px;}
+.carousel-home
+.carousel-next a:hover
+.icon {                     background-position:-64px -108px;}
+.carousel-home
+.carousel-prev a {          padding:12px 13px 12px 11px;}
+.carousel-home
+.carousel-next a {          padding:12px 12px 12px 14px;}
+.carousel-home
+.carousel-prev .icon {      background-position:-32px -108px;}
+.carousel-home
+.carousel-prev a:hover
+.icon {                     background-position:-16px -108px;}
+.carousel-home
+.carousel-prev-next a  {    background:#fff; }
+.carousel-home
+.carousel-prev-next .icon { cursor:pointer;}
+
+.carousel-home .items {     padding-left:230px;}
+.carousel-home .items li {  margin-right:1px; float:left;}
+.carousel-home .items a {   padding:10px 15px; position:relative; display:block; background:#fff; text-transform:uppercase;
+                            zoom:1;}
+.carousel-home .items
+.icon-arrow-top {           position:absolute; top:-11px; left:50%; margin-left:-8px; display:none;}
+.carousel-home .items
+.active .icon-arrow-top {   display:block;}
+
+/*carousel-home-2 */
+.carousel-home-2 {          margin:0 0 25px; position:relative; width:938px; height:340px; border:1px solid #dedce2;}
+.carousel-home-2,
+.carousel-home-2
+.carousel-view .picture {   -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;}
+.carousel-home-2
+.carousel-view {            position:relative; height:340px; }
+.carousel-home-2
+.carousel-view li {         width:940px;}
+.hasJs .carousel-home-2
+.carousel-view li {         float:left;}
+.carousel-home-2 .carousel-view .outer-txt {
+                            position:absolute; top:45px; left:20px; width:350px; }
+.carousel-home-2
+.heading-1 {                margin-bottom:15px; text-transform:uppercase; font-size:63px; line-height:50px;
+                            font-weight:300; letter-spacing:-2px; }
+.carousel-home-2
+.teasing-3 {                font-size:17px;}
+.carousel-home-2
+.heading-1 span {           font-size:28px; font-weight:700; text-transform:none; letter-spacing:0;}
+.carousel-home-2
+.carousel-prev {            display:none; }
+.carousel-home-2
+.carousel-next {            position:absolute; top:145px; right:20px; z-index:10; }
+.carousel-home-2 .carousel-next a, .carousel-home-2 .carousel-next a:hover {
+                            position:relative;
+                            padding:0; width:50px; height:50px;
+                            -webkit-border-radius:2px; -moz-border-radius:2px;
+                             border-radius:2px; }
+.carousel-home-2 .carousel-next .icon, .carousel-home-2 .carousel-next a:hover .icon {
+                            position:absolute; left:50%; top:50%; margin:-8px 0 0 -8px; background-position:-96px -320px; height:16px;}
+.carousel-home-2 .carousel-items {   padding:5px 10px;  position:absolute; bottom:0; right:20px;
+                                     -webkit-border-radius:2px 2px 0 0; -moz-border-radius:2px 2px 0 0;
+                                     border-radius:2px 2px 0 0; }
+.carousel-home-2 .carousel-next a,
+.carousel-home-2 .carousel-items {
+                            background:#a3a19c;
+                            background:rgba(0,0,0,.20);}
+.carousel-home-2 li.carousel-next a:hover {
+                            background:#8b8b88;
+                            background:rgba(0,0,0,.40); }
+.carousel-home-2 .carousel-items li{ padding:5px; display:inline; }
+.carousel-home-2 .carousel-items a { }
+.carousel-home-2 .carousel-items .icon,
+.carousel-home-2 .carousel-items .active .icon {
+                            display:none; }
+
+/*carousel-home-3*/
+.carousel-home-3 {                  position:relative; overflow:hidden;height:350px;}
+.carousel-home-3 .carousel-view
+li {                                float:left;zoom:1;}
+.carousel-home-3 .outer-txt {       position:absolute; top:0; left:0;}
+.carousel-home-3 .txt-left,
+.carousel-home-3 .txt-right {       position:relative; z-index:2;}
+.carousel-home-3 .txt-left {        padding:77px 560px 0 60px; }
+.carousel-home-3 .txt-right {        padding:77px 165px 0 460px; }
+
+.carousel-home-3 .outer-txt .heading-1 {  margin-bottom:40px; text-transform:uppercase; font-size:45px; line-height:47px;
+                                    font-weight:500; letter-spacing:-1px;}
+.carousel-home-3 .heading-1 small {        font-size:33px; line-height:33px; }
+.carousel-home-3 .heading-1 strong {       font-weight:700; }
+
+
+/*carousel-special*/
+.carousel-special {         margin:0 0 28px;height:357px;overflow:hidden;position:relative; }
+.carousel-special
+.carousel-view li {         width:980px;}
+.hasJs .carousel-special
+.carousel-view li {         float:left;}
+.carousel-special .carousel-list { position:absolute;left:0;top:0;display:block;width:100%; }
+.carousel-special .carousel-items .icon { background: url(../themes/brands/toyota/images/sprite-caroussel.png); }
+.carousel-special
+.carousel-items {           position:absolute; top:330px;right:15px;}
+.carousel-special
+.carousel-items li {        float:left;}
+.carousel-special
+.carousel-items .icon {     background-position: 0 -480px;}
+.carousel-special
+.carousel-items
+.icon:hover {                background-position: -32px -480px;}
+.carousel-special
+.carousel-items .active
+.icon,
+.carousel-special
+.carousel-items .active
+a:hover .icon {             background-position: -16px -480px;}
+
+
+
+
+/*carousel-home-3*/
+.carousel-home-3 {          position:relative;}
+
+
+/*carousel-box-home*/
+.carousel-box-home {        position:relative;}
+.carousel-box-home
+.carousel-view li {         width:269px;float:left;}
+.carousel-box-home
+.carousel-prev-next
+.carousel-prev {            position:absolute;bottom:12px;left:-8px;}
+.carousel-box-home
+.carousel-prev-next
+.carousel-next {            position:absolute;bottom:12px;right:-8px;}
+
+.carousel-box-home
+.carousel-prev-next
+.carousel-prev .icon {      background-position:-64px -16px;width:16px;height:16px;}
+.carousel-box-home
+.carousel-prev-next
+.carousel-next .icon {      background-position:-32px -16px;width:16px;height:16px;}
+.carousel-box-home
+.carousel-prev a:hover,
+.carousel-box-home
+.carousel-next a:hover {    background:transparent;}
+
+
+
+/*  =OOCarousel slideScale base style
+    ------------------------------------------------------ */
+.slidefade-carousel {   z-index:2;position:relative;}
+.slidefade-carousel .carousel-view {
+    overflow:hidden;
+    position:relative;
+}
+
+.slidefade-carousel .carousel-view ul {
+    position:absolute;
+    left:99px; /* Default position */
+}
+
+.slidefade-carousel .carousel-view li {
+    float:left;
+    display:block;
+    background-color:#FFF;
+    position:relative;
+}
+
+.slidefade-carousel .carousel-view li.slidefade-active {
+    -moz-box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    -ms-box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.slidefade-carousel .before,
+.slidefade-carousel .after {
+    position:absolute;
+    z-index:6;
+}
+
+
+/* Specials offers */
+#specialsoffers {
+    position:relative;
+    -webkit-border-radius:4px 4px 0 0;
+    -moz-border-radius:4px 4px 0 0;
+    border-radius:4px 4px 0 0;
+    padding:0 0 20px 0;
+    margin:0 -19px 0 -19px;
+}
+
+    #specialsoffers:before {
+       content:"";
+       bottom:-28px;
+       left:50%;
+       margin-left:-14px;
+       position:absolute;
+       border-color:transparent transparent  transparent transparent;
+       border-style:solid;
+       border-width:14px;
+       width:0;
+       height:0;
+    }
+
+#specialsoffers .carousel-view {
+    width:978px;
+    height:409px;
+}
+
+#specialsoffers .carousel-view li {
+    height:409px;
+    width:780px;
+}
+
+#specialsoffers .before,
+#specialsoffers .after {
+    z-index:3;
+    background-image: -webkit-radial-gradient(0% 0%, rgba(255, 255, 255,0.05), rgba(0, 0, 0,0.05));
+    background-image: -moz-radial-gradient(0% 0%, rgba(255, 255, 255,0.05), rgba(0, 0, 0,0.05));
+    background-image: -o-radial-gradient(0% 0%, rgba(255, 255, 255,0.05), rgba(0, 0, 0,0.05));
+    background-image: -ms-radial-gradient(0% 0%, rgba(255, 255, 255,0.05), rgba(0, 0, 0,0.05));
+    background-image: radial-gradient(0% 0%, rgba(255, 255, 255,0.05), rgba(0, 0, 0,0.05));
+}
+
+#specialsoffers .before {
+   top:30px;
+   left:-10px;
+   height:50px;
+   text-shadow:1px 1px 0 white, -1px -1px 0 rgba(0,0,0,0.1);
+   -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 0 0 5px rgba(109, 109, 109, 0.22);
+   -ms-box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 0 0 5px rgba(109, 109, 109, 0.22);
+   -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 0 0 5px rgba(109, 109, 109, 0.22);
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 0 0 5px rgba(109, 109, 109, 0.22);
+   -webkit-border-radius:0 4px 4px 0;
+   -moz-border-radius:0 4px 4px 0;
+   border-radius:0 4px 4px 0;
+}
+    #specialsoffers .heading-3 { line-height:50px;padding:0 32px 0 24px; }
+
+    #specialsoffers .before:before {
+        content:"";
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-top: 10px solid #302e2a;
+        position:absolute;
+        bottom:-10px;
+    }
+
+#specialsoffers .after {
+    top:235px;
+    width:225px;
+    left:551px;
+    height:126px;
+    padding:14px 0 0 14px;
+    -moz-box-shadow: -5px -5px 5px rgba(0,0,0,0.2), 0 0 5px rgba(109, 109, 109, 0.22);
+    -ms-box-shadow: -5px -5px 5px rgba(0,0,0,0.2), 0 0 5px rgba(109, 109, 109, 0.22);
+    -webkit-box-shadow: -5px -5px 5px rgba(0,0,0,0.2), 0 0 5px rgba(109, 109, 109, 0.22);
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.2), 0 0 5px rgba(109, 109, 109, 0.22);
+
+
+    -webkit-border-radius:4px 0 0 4px;
+    -moz-border-radius:4px 0 0 4px;
+    border-radius:4px 0 0 4px;
+}
+    #specialsoffers .after:before {
+           content:"";
+           width: 0;
+           height: 0;
+           border-right: 10px solid transparent;
+           border-bottom: 10px solid #302e2a;
+           position:absolute;
+           top:-10px;
+           right:0;
+       }
+
+
+#specialsoffers .slidefade-next-bg,
+#specialsoffers .slidefade-prev-bg,
+#specialsoffers .carousel-prev-next a,
+#specialsoffers .carousel-prev-next .icon,
+#specialsoffers .carousel-items .icon {
+    background-color:transparent;
+    padding:0px;
+}
+
+    #specialsoffers .carousel-prev,
+    #specialsoffers .carousel-next,
+    #specialsoffers .slidefade-prev-bg,
+    #specialsoffers .slidefade-next-bg {
+        z-index:4;
+        position:absolute;
+        top:160px;
+        left:-40px;
+        display:block;
+        height:80px;
+        width:80px;
+    }
+
+    #specialsoffers .carousel-next,
+    #specialsoffers .slidefade-next-bg {
+        left:auto;
+        right:-40px;
+    }
+
+    #specialsoffers .slidefade-next-bg,
+    #specialsoffers .slidefade-prev-bg {
+        background-position:0 -64px;
+        z-index:1;
+    }
+
+    #specialsoffers .carousel-prev-next a {
+        display: block;
+        height:64px;
+        width:64px;
+        margin:8px 0 0 8px;
+        background-position:0 0;
+    }
+
+    #specialoffers .carousel-prev a:hover,
+    #specialoffers .carousel-next a:hover { background-color:transparent;}
+
+
+    #specialsoffers .carousel-prev .icon,
+    #specialsoffers .carousel-next .icon {
+        background-position:0 -144px;
+        height:22px;
+        width:16px;
+        margin:22px 0 0 23px;
+    }
+
+    #specialsoffers .carousel-next .icon { background-position:-16px -144px;margin:22px 0 0 27px;}
+
+#specialsoffers ul.carousel-items {
+    text-align:center;
+    display:block;
+    height:18px;
+    margin:10px auto;
+    #padding:0 0 0 470px;
+}
+
+    #specialsoffers .carousel-items li {
+        display:inline-block;
+        #display:block;
+        #float:left;
+        margin:0 4px;
+    }
+
+        #specialsoffers .carousel-items .icon {
+            z-index:4;
+            width:6px;
+            height:7px;
+            cursor:pointer;
+            background-position:-32px -144px;
+        }
+
+        #specialsoffers .carousel-items .active .icon {
+           background-position:-38px -144px;
+        }
+
+#specialsoffers p {
+    text-align:center;
+    width:680px;
+    margin:6px auto 6px auto;
+}
+
+/* Carousel Partenaires fiche */
+.carousel-partenaires-fiche{position:relative;padding:0px 0 18px;margin-bottom:18px;border-bottom:1px solid #e5e5e5;overflow:hidden;}
+.carousel-partenaires-fiche
+.carousel-view {            width:510px;margin:0 auto;padding:10px 0;overflow:hidden;overflow:hidden;}
+.carousel-partenaires-fiche
+.carousel-view li {         float:left;width:120px;height:120px;padding:0px;margin-right:10px;}
+.carousel-partenaires-fiche
+.imgshadow{                 border:1px solid #e8e8e8;width:118px;height:118px;background:#FFF;padding:0px;
+                            -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.carousel-partenaires-fiche
+.carousel-prev {            position:absolute;top:46px;left:10px;}
+.carousel-partenaires-fiche
+.carousel-next {            position:absolute;top:46px;right:10px;}
+.carousel-partenaires-fiche
+.carousel-prev .icon,
+.carousel-partenaires-fiche
+.carousel-prev a:hover .icon {background-position:-80px -192px; height:32px;}
+.carousel-partenaires-fiche
+.carousel-next .icon,
+.carousel-partenaires-fiche
+.carousel-next a:hover .icon {background-position:-112px -96px; height:32px;}
+.carousel-partenaires-fiche
+.carousel-next a:hover,
+.carousel-partenaires-fiche
+.carousel-prev a:hover {background:transparent;}
+
+
+/* Product Caroussel */
+.tmp-products .box-brand-details .carousel-products {
+    position:relative;
+    overflow:hidden;
+}
+.tmp-products .box-brand-details  .carousel-view {
+    position:relative;
+    width:620px;
+    height:300px;
+    overflow:hidden;
+}
+.tmp-products .box-brand-details
+.carousel-view ul {
+    position:absolute;}
+.tmp-products .box-brand-details .carousel-view li {
+    float:left;
+    position:relative;
+}
+.tmp-products .box-brand-details .carousel-prev-next {
+    position:absolute;top:0;left:0;
+    height:300px;width:620px;
+}
+.tmp-products .box-brand-details .carousel-prev-next
+.carousel-prev {
+    position:absolute;top:40%;left:0;
+}
+.tmp-products .box-brand-details .carousel-prev-next
+.carousel-next {
+    position:absolute;top:40%;right:0;
+}
+
+.tmp-products .box-brand-details .carousel-list .carousel-items {text-align:center;}
+.tmp-products .box-brand-details .carousel-list .carousel-items li {display:inline-block;margin-top:5px;}
+.tmp-products .box-brand-details .carousel-list .carousel-items span.icon {display:block;}
+.tmp-products .box-brand-details .carousel-list .carousel-items span.number {display:none;}
+
+/* Carousel Partenaires fiche */
+.carousel-partenaires-fiche{position:relative;padding:0px 0 18px;margin-bottom:18px;border-bottom:1px solid #e5e5e5;overflow:hidden;}
+.carousel-partenaires-fiche
+.carousel-view {            width:510px;margin:0 auto;padding:10px 0;overflow:hidden;overflow:hidden;}
+.carousel-partenaires-fiche
+.carousel-view li {         float:left;width:120px;height:120px;padding:0px;margin-right:10px;}
+.carousel-partenaires-fiche
+.imgshadow{                 border:1px solid #e8e8e8;width:118px;height:118px;background:#FFF;padding:0px;
+                            -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.carousel-partenaires-fiche
+a:hover .imgshadow{         border:1px solid #cfcfcf;}
+.carousel-partenaires-fiche
+.carousel-prev {            position:absolute;top:46px;left:10px;}
+.carousel-partenaires-fiche
+.carousel-next {            position:absolute;top:46px;right:10px;}
+.carousel-partenaires-fiche
+.carousel-prev .icon,
+.carousel-partenaires-fiche
+.carousel-prev a:hover .icon {background-position:-80px -192px; height:32px;}
+.carousel-partenaires-fiche
+.carousel-next .icon,
+.carousel-partenaires-fiche
+.carousel-next a:hover .icon {background-position:-112px -96px; height:32px;}
+.carousel-partenaires-fiche
+.carousel-next a:hover,
+.carousel-partenaires-fiche
+.carousel-prev a:hover {background:transparent;}
+
+
+/* carousel-filiale-fiche */
+.carousel-filiale-fiche{    position:relative;overflow:hidden;}
+.carousel-filiale-fiche
+.carousel-view {            width:300px;margin:0 auto;overflow:hidden;height:280px;}
+.carousel-filiale-fiche
+.carousel-view ul {         display:block;height:280px;}
+.carousel-filiale-fiche
+.icon-lightbox-open{        position:absolute;left:133px;top:83px;opacity:0;-webkit-transition:opacity 0.3s ease;
+                            -moz-transition:opacity 0.3s ease;transition:opacity 0.3s ease;#display:none;}
+.carousel-filiale-fiche
+.carousel-view a:hover .icon-lightbox-open{ opacity:0.9;display:block;}
+.carousel-filiale-fiche
+.carousel-view li:first-child{z-index:3;}
+.carousel-filiale-fiche
+.carousel-view li {         top:0;left:0;position:absolute;width:300px;height:300px;padding:0px;background:#FFF;}
+.carousel-filiale-fiche
+.carousel-view li p {       padding:28px 0 0 0 ;color:#999;font-size:11px;line-height:13px;}
+.carousel-filiale-fiche
+.carousel-view li strong {  display:block;}
+.carousel-filiale-fiche
+ul.carousel-items {         position:absolute;top:195px;left:0;right:0;text-align:center;display:block;
+                            height:18px;margin:10px auto;#padding:0 0 0 120px;z-index:4;}
+.carousel-filiale-fiche
+.carousel-items li {        display:inline-block;#display:block;#float:left;margin:0 4px;}
+.carousel-filiale-fiche
+.carousel-items .icon {     z-index:4;width:6px;height:7px;cursor:pointer;background-position:-32px -144px;}
+.carousel-filiale-fiche
+.carousel-items .active .icon {background-position:-38px -144px;}
+
+
+
+/* carousel-filiale-fiche */
+.carousel-filiale-home{     position:relative;overflow:hidden;}
+.carousel-filiale-home
+.carousel-view {            overflow:hidden;height:380px;}
+.carousel-filiale-home
+.carousel-view ul {         }
+.carousel-filiale-home
+.carousel-view li {         position: relative;display:block;float: left;width:980px;height:380px;}
+.carousel-filiale-home
+.carousel-view .picture{    margin:10px 0 0 80px;            }
+.carousel-filiale-home
+.more-infos {               position:absolute;top:280px;left:720px;}
+.carousel-filiale-home
+.carousel-prev{             position:absolute;top:170px;width:48px;height:64px;}
+.carousel-filiale-home
+.carousel-next{             position:absolute;top:170px;right:0;width:48px;height:64px;}
+.carousel-filiale-home .carousel-prev .icon, .carousel-filiale-home .carousel-prev .icon:hover{
+                            background-position:-48px -304px;width:48px;height:64px;}
+.carousel-filiale-home .carousel-next .icon, .carousel-filiale-home .carousel-next .icon:hover{
+                            background-position:0 -304px;width:48px;height:64px;}
+.carousel-filiale-home .carousel-prev a, .carousel-filiale-home .carousel-next a,
+.carousel-filiale-home .carousel-prev a:hover, .carousel-filiale-home .carousel-next a:hover {
+                            padding:0px;display: block;width:48px;height:64px;background:none;}
+
+/* Home automotive */
+.automotive-wrapper{position:relative;}
+.automotive-carousel,
+.automotive-carousel .carousel-view{height:488px;margin:0 auto;}
+.automotive-carousel .carousel-view ul{display:block;height:488px;overflow-y:hidden;}
+.automotive-carousel .carousel-view li{background-position:center top;background-repeat:no-repeat;display:block;position:absolute;left:0;right:0;height:488px;}
+.automotive-carousel .carousel-view .automotive-carousel-inner{width:980px;margin:0 auto;position:relative;}
+.automotive-carousel .btn-2{position:absolute;top:400px;left:90px;}
+.automotive-carousel .heading-3,
+.automotive-carousel .heading-4{text-transform:uppercase;position:absolute;top:30px;left:0;right:0;}
+.automotive-carousel .heading-4{top:314px;left:90px;right:auto;background:#FFF;background:rgba(255,255,255,0.9);float:left;padding:16px 22px;text-align:left;}
+.automotive-carousel .carousel-view li:first-child{z-index:3;}
+.automotive-carousel .carousel-next a,
+.automotive-carousel .carousel-next a:hover{background-color:transparent;}
+.automotive-carousel .carousel-next{position:absolute;top:177px;right:15px;}
+.automotive-carousel .carousel-next .icon,
+.automotive-carousel .carousel-next .icon:hover{width:89px;height:135px;}
+.automotive-carousel .carousel-prev{display:none;}
+.automotive-carousel .carousel-list{position:absolute;top:0;left:50%;margin-left:-478px;width:980px;height:1px;z-index:5;}
+
+.automotive-carousel .carousel-items .icon { background: url(../themes/brands/toyota/images/sprite-caroussel.png); }
+.automotive-carousel
+.carousel-items {           position:absolute; top:448px;right:15px;}
+.automotive-carousel
+.carousel-items li {        float:left;}
+.automotive-carousel
+.carousel-items .icon {     background-position: 0 -480px;}
+
+.carousel-items
+.icon:hover {                background-position: -32px -480px;}
+.automotive-carousel
+.carousel-items .active
+.icon,
+.automotive-carousel
+.carousel-items .active
+a:hover .icon {             background-position: -16px -480px;}
+
+
+
+
+/*carousel product-view*/
+.carousel-product-view {          position:relative;}
+.carousel-product-view
+.carousel-view {            position:relative;height:400px;max-height:400px;}
+.hasJs .carousel-product-view
+.carousel-view li {         float:left;width:940px;height:400px;}
+.carousel-product-view
+.carousel-view li a {       display:block; float:left;}
+.carousel-product-view
+.carousel-view ul {         position:relative;}
+.carousel-product-view
+.carousel-view img {        display:block;}
+.carousel-product-view
+.carousel-view
+.picture-color {            display:none;}
+.carousel-product-view a:hover
+.picture-color {            display:block;}
+.carousel-product-view a:hover
+.picture-bw {               display:none;}
+
+.carousel-product-view .carousel-list {position:absolute;top:0;left:0;right:0;bottom:0;}
+.carousel-product-view .carousel-list a:hover {background:none;}
+
+.tmp-services-home .services-home-carousel {
+                            width:980px;
+                            height:360px;
+
+}
+.tmp-services-home .carousel-view {
+                            width:980px;
+                            position:relative;
+                            height:360px;
+}
+
+.tmp-services-home .carousel-view li  {
+                            float:left;
+                            width:978px;
+                            height:360px;
+                            border:1px solid #e0e0e0;
+                            border-radius:3px 3px 6px 6px;
+}
+
+
+
+.tmp-services-home .services-home-carousel,
+.tmp-services-home .carousel-view {
+                            margin:0 auto;
+                            height:360px;
+}
+
+.tmp-services-home .services-home-carousel .carousel-view ul {
+    display: block;
+    height: 360px;
+    overflow-y: hidden;
+}
+
+.tmp-services-home .services-home-carousel .carousel-view li {
+    display: block;
+    height: 360px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index:1;
+}
+
+.tmp-services-home .services-home-carousel .carousel-list {
+    height: 1px;
+    left: 50%;
+    margin-left: -478px;
+    position: absolute;
+    top: 0;
+    width: 980px;
+    z-index: 5;
+}
+
+.tmp-services-home .services-home-carousel .carousel-view .services-home-carousel-inner {
+                            position:absolute!important;
+                            top:160px;
+                            right:105px;
+                            width:345px!important;
+                            z-index:5;
+}
+
+/*.tmp-services-home .services-home-carousel .carousel-view .services-home-carousel-inner {
+                            display:none;
+}
+
+.tmp-services-home .services-home-carousel .carousel-view li.active .services-home-carousel-inner {
+                            display:block;
+}*/
+
+.tmp-services-home .services-home-carousel .infos {
+                            top:0;
+                            right:0;
+                            position:absolute;
+                            margin:0 0 4px 0;
+                            background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+                            #background-color: #FFFFFF;
+                            float: left;
+                            padding: 16px 22px;
+                            text-align: left;
+}
+
+.tmp-services-home  .services-home-carousel .btn-2 {
+                            left:0;
+                            top:0;
+                            position:relative;
+                            float:left;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev-next .icon {
+                            width:36px;
+                            height:59px;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev-next li {
+                            position:absolute;
+                            width:36px;
+                            height:59px;
+                            top:150px;
+}
+
+.tmp-services-home .services-home-carousel .carousel-next {
+                            right:40px;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev {
+                            left:20px;
+                            display:block;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev-next a  {
+                            width:36px;
+                            height:59px;
+                            padding:0;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev-next a:hover {
+                            background:none;
+}
+
+.tmp-services-home .services-home-carousel .carousel-next span.icon {
+                            background-position:-36px -37px;
+}
+
+.tmp-services-home .services-home-carousel .carousel-prev span.icon {
+                            background-position:0 -37px;
+}
+
+
+.services-home-carousel .pager-items {
+                            position: absolute;
+                            bottom: -21px;
+                            right: 0;
+                            z-index: 5;
+                            display: block;
+                            width: 100%;
+}
+.services-home-carousel ul.items {
+                            display: inline-block;
+                            position: relative;
+                            width: auto;
+                            margin: 0 auto;
+                            #display:inline;
+                            #zoom:1;
+}
+.services-home-carousel .pager-items li {
+                            float:left;
+                            position:relative;
+                            margin:0 1px 0 0;
+                            padding:0px;
+}
+
+.services-home-carousel .pager-items li a {
+                            float:left;
+                            position:relative;
+                            display:inline-block;
+                            #display:inline;
+                            zoom:1;
+}
+
+.services-home-carousel .pager-items li .icon {
+                            display:none;
+}
+
+.services-home-carousel .pager-items a {
+                            background:#efece6;
+                            padding:13px 15px!important;
+                            text-transform:uppercase;
+                            font-size:1.45em;
+                            display:block;
+                            box-shadow:0 1px 3px #888;
+}
+
+.services-home-carousel .pager-items li:hover .icon-arrow,
+.services-home-carousel .pager-items li.active .icon-arrow  {
+                            width:13px;
+                            height:7px;
+                            position:absolute;
+                            top:-7px;
+                            left:50%;
+                            margin-left:-7px;
+                            display:block;
+}
